@@ -35,7 +35,7 @@ public class VariableTypesPractice {
 	 */
 	
 	boolean temp;
-	int a;
+	int a;  // this is instance variable
     VariableTypesPractice obj;
     int b;
     
