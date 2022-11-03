@@ -17,7 +17,6 @@ public class PolymorphismBasics {
 	    
 	*/
 	
-	
 	public static void main(String[] args) {
 		
 		System.out.println(add(10,30));
@@ -42,9 +41,4 @@ public class PolymorphismBasics {
 	static float add(int a,float b) {
 		return a+b;
 	}
-	
-	
-	
-	
-	
 }
