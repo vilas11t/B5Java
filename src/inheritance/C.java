@@ -7,7 +7,7 @@ public class C {
 		A a=new A(); // parent class object // only parent class methods can be accessed.
 		a.m1();
 		
-		A a1=new B(); // Parent class can hold child class object // onle parent class methods can be accessed if method overriding is not used
+		A a1=new B(); // Parent class can hold child class object // only parent class methods can be accessed if method overriding is not used
 		a1.m1();
 		
 		B b=new B(); // child class object // it can access methods of parent and child class
