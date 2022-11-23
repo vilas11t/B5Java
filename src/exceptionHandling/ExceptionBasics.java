@@ -5,7 +5,7 @@ public class ExceptionBasics {
 	 Exception:- It is a event when occur that disturbs normal flow of program execution.
 	 
 	 Reasons
-	  1. Opening of  on existing file
+	  1. Opening of  non existing file
 	  2. index used out of range
 	  3. End user input mistake
 	  4. network connection problem
@@ -30,7 +30,7 @@ public class ExceptionBasics {
 	            
 	     How to handle exception
 	      - using Try-- catch block
-	      - Throw keyword
+	      - Throws keyword
 	      
 	      Try-- catch block
 	      
@@ -51,15 +51,21 @@ public class ExceptionBasics {
 	         
 	         when finally block will not execute
 	         1. when program terminates before reaching to try block
-	         2. when we user System.exit(0).
+	         2. when we use System.exit(0).
 	         
 	      }
+	      
+	      
+	      what is diff between throwable, throws, throw.
+	      throwable- It is a parent class of All exceptions in java (Exception and Errors)
+	      throws- It is used to handle exception. it used in method declaration to throw exception in method.
+	      throw- it used as method return type in user defined exceptions. return a-->  throw exceptionType
 	 
 	 */
 	
 	public static void main(String[] args) {
 		
-		int a=10, b=2;
+		int a=10, b=0;
 		int c = 0;
 		
 		try {
